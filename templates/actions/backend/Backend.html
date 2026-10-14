@@ -25,7 +25,7 @@
         #multilanguageassyst-editor [role=status][data-status=loading]{color:var(--text-color,#444);background:var(--background-color,#f5f5f5);border-color:var(--border-color-soft,#ddd)}
         #multilanguageassyst-browser[aria-busy=true]{opacity:.6;pointer-events:none}
     #multilanguageassyst-editor [hidden]{display:none!important} #multilanguageassyst-editor .multilanguageassyst-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0} #multilanguageassyst-editor .multilanguageassyst-tabs button[aria-selected=true]{background:var(--accent-color,#0088ee);color:#fff} #multilanguageassyst-editor .multilanguageassyst-two-columns{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media(max-width:700px){#multilanguageassyst-editor .multilanguageassyst-two-columns{grid-template-columns:1fr}} #multilanguageassyst-editor .multilanguageassyst-author{font-size:14px;font-weight:normal} {/literal}</style>
-<h1>{shopMultilanguageassystBackendLocale::t('МультиязыкАссист')|escape} <small class="multilanguageassyst-author">{$plugin_version|default:'0.6.18'|escape} {shopMultilanguageassystBackendLocale::t('· Автор:')|escape} <a href="https://the88788.com" target="_blank" rel="noopener">the88788.com</a></small></h1>
+<h1>{shopMultilanguageassystBackendLocale::t('МультиязыкАссист')|escape} <small class="multilanguageassyst-author">{$plugin_version|default:'0.6.19'|escape} {shopMultilanguageassystBackendLocale::t('· Автор:')|escape} <a href="https://the88788.com" target="_blank" rel="noopener">the88788.com</a></small></h1>
 <nav class="multilanguageassyst-tabs" role="tablist" aria-label="{shopMultilanguageassystBackendLocale::t('Управление переводами')|escape}">
 <button class="button light-gray" type="button" role="tab" data-tab="content" aria-selected="true" aria-controls="multilanguageassyst-content">{shopMultilanguageassystBackendLocale::t('Публикации')|escape}</button>
 <button class="button light-gray" type="button" role="tab" data-tab="export" aria-selected="false" aria-controls="multilanguageassyst-export-panel">{shopMultilanguageassystBackendLocale::t('Экспорт')|escape}</button>
@@ -74,7 +74,7 @@
     <p class="hint">{shopMultilanguageassystBackendLocale::t('Плагин бесплатный. Индивидуальная установка, настройка и адаптация доступны как отдельные платные услуги.')|escape}</p>
 </aside>
 <script type="application/json" id="multilanguageassyst-backend-locale">{shopMultilanguageassystBackendLocale::javascript()}</script>
-<script src="{$wa_url}wa-apps/shop/plugins/multilanguageassyst/js/backend.js?v={$plugin_version|default:'0.6.18'|escape}"></script>
+<script src="{$wa_url}wa-apps/shop/plugins/multilanguageassyst/js/backend.js?v={$plugin_version|default:'0.6.19'|escape}"></script>
 </div>
 
 

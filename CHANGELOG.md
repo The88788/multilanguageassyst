@@ -1,5 +1,19 @@
 # Changelog / История изменений
 
+## 0.6.19
+
+### Русский
+
+- Добавлены INSTALL.md и INSTALL.en.md с полной ручной установкой без маркета.
+- Описаны загрузка файлов, включение в plugins.php, очистка кеша, первое открытие, обновление, отключение и удаление.
+- Добавлены ссылки на инструкции из обоих README. Функции и формат переводов не изменились.
+
+### English
+
+- Added INSTALL.md and INSTALL.en.md with complete manual installation instructions.
+- Documented file upload, plugins.php registration, cache clearing, first launch, updates, disabling, and uninstalling.
+- Linked both guides from the READMEs. Translation features and file format are unchanged.
+
 ## 0.6.18
 
 ### Русский

@@ -1,4 +1,6 @@
-# MultiLanguageAssyst 0.6.18
+# MultiLanguageAssyst 0.6.19
+
+**Install without the marketplace:** [step-by-step guide](INSTALL.en.md). **Установка вручную:** [русская инструкция](INSTALL.md).
 
 [Русская документация](README.md) · [Webasyst COM](https://www.webasyst.com/store/plugin/shop/multilanguageassyst/) · [Webasyst RU](https://www.webasyst.ru/store/plugin/shop/multilanguageassyst/) · [GitHub Releases](https://github.com/The88788/multilanguageassyst/releases)
 
