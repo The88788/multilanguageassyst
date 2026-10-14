@@ -6,7 +6,7 @@ return array(
     'img' => 'img/icon-16.png',
     'icon' => array(16 => 'img/icon-16.png', 48 => 'img/icon-48.png'),
     'description' => 'Ручное заполнение переводов и экспорт/импорт языковых файлов.',
-    'version' => '0.6.19',
+    'version' => '0.6.18',
     'author' => 'the88788.com',
     'vendor' => 1341445,
     'shop_settings' => true,

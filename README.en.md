@@ -1,4 +1,4 @@
-# MultiLanguageAssyst 0.6.19
+# MultiLanguageAssyst 0.6.18
 
 **Install without the marketplace:** [step-by-step guide](INSTALL.en.md). **Установка вручную:** [русская инструкция](INSTALL.md).
 

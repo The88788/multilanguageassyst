@@ -14,7 +14,7 @@ class shopMultilanguageassystPluginBackendAction extends waViewAction
         $language = waRequest::get('target_language', null, 'string');
         if (!isset($targets[$language])) { $keys = array_keys($targets); $language = $keys ? reset($keys) : ''; }
         $languages=shopMultilanguageassystLanguages::all();
-        $this->view->assign(array('target_language'=>$language,'target_languages'=>$targets,'target_name'=>isset($languages[$language])?$languages[$language]:'','languages'=>$languages,'source_language'=>shopMultilanguageassystLanguages::source(),'source_name'=>$languages[shopMultilanguageassystLanguages::source()],'journal'=>shopMultilanguageassystJournal::entries(),'plugin_version'=>'0.6.19'));
+        $this->view->assign(array('target_language'=>$language,'target_languages'=>$targets,'target_name'=>isset($languages[$language])?$languages[$language]:'','languages'=>$languages,'source_language'=>shopMultilanguageassystLanguages::source(),'source_name'=>$languages[shopMultilanguageassystLanguages::source()],'journal'=>shopMultilanguageassystJournal::entries(),'plugin_version'=>'0.6.18'));
         $type = waRequest::get('entity_type', 'product', 'string');
         $id = $language !== '' ? waRequest::get('entity_id', 0, 'int') : 0;
         $fields = shopMultilanguageassystContent::fields($type);
