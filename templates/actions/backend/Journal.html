@@ -1,0 +1,12 @@
+<div id="multilanguageassyst-journal">
+<p class="hint" style="margin-top:1.5em">{shopMultilanguageassystBackendLocale::t('Журнал хранит только последние 200 событий импорта и других операций. При добавлении новых событий старые автоматически удаляются. Полные тексты переводов и содержимое файлов не сохраняются.')|escape}</p>
+<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:12px 0">
+<button type="button" class="button light-gray" style="margin:0" data-journal-page="previous">{shopMultilanguageassystBackendLocale::t('Назад')|escape}</button>
+<button type="button" class="button light-gray" style="margin:0" data-journal-page="next">{shopMultilanguageassystBackendLocale::t('Далее')|escape}</button>
+<label style="display:inline-flex;align-items:center;gap:8px;margin:0">{shopMultilanguageassystBackendLocale::t('Записей на странице:')|escape} <select id="multilanguageassyst-journal-limit" style="width:auto;min-width:0;max-width:none;margin:0;flex:0 0 auto"><option value="20">20</option><option value="50">50</option><option value="100">100</option><option value="200">{shopMultilanguageassystBackendLocale::t('Все (до 200)')|escape}</option></select></label>
+<span id="multilanguageassyst-journal-summary" class="hint" style="display:inline-flex;align-items:center;align-self:center;margin:0;line-height:1.5" role="status" aria-live="polite"></span>
+</div>
+<table class="zebra" style="width:100%"><thead><tr><th>{shopMultilanguageassystBackendLocale::t('Время')|escape}</th><th>{shopMultilanguageassystBackendLocale::t('Операция')|escape}</th><th>{shopMultilanguageassystBackendLocale::t('Файл')|escape}</th><th>{shopMultilanguageassystBackendLocale::t('Результат')|escape}</th></tr></thead><tbody>
+{foreach $journal as $entry}<tr class="multilanguageassyst-journal-entry"{if $entry@index >= 20} hidden{/if}><td>{$entry.time|escape}</td><td>{shopMultilanguageassystBackendLocale::journalText($entry.action)|escape}</td><td style="overflow-wrap:anywhere">{$entry.file|default:'-'|escape}</td><td style="color:{if $entry.status == 'error'}#b91c1c{else}#15803d{/if}">{shopMultilanguageassystBackendLocale::journalText($entry.message)|escape}</td></tr>{foreachelse}<tr><td colspan="4">{shopMultilanguageassystBackendLocale::t('Операций пока нет.')|escape}</td></tr>{/foreach}
+</tbody></table>
+</div>

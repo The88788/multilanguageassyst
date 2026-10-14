@@ -1,0 +1,27 @@
+<div id="multilanguageassyst-languages-fragment" data-target-count="{$target_languages|count}"><h2>{shopMultilanguageassystBackendLocale::t('Языки витрины')|escape}</h2>
+<p>{shopMultilanguageassystBackendLocale::t('Исходные тексты хранятся в магазине. Переводы хранятся отдельно в плагине.')|escape}</p>
+<ul>{foreach $languages as $code=>$name}<li>{$name|escape} ({$code|escape}){if $code == $source_language} {shopMultilanguageassystBackendLocale::t('- язык оригинала')|escape}{else}
+<form class="multilanguageassyst-language-remove" method="post" style="display:inline-block; margin:0 0 0 12px" action="{$editor_url|escape}?plugin=multilanguageassyst&amp;module=backend&amp;action=languages">
+{$wa->csrf()}<input type="hidden" name="operation" value="remove"><input type="hidden" name="code" value="{$code|escape}">
+<button type="submit" class="button small light-gray">{shopMultilanguageassystBackendLocale::t('Удалить')|escape}</button>
+</form>{/if}</li>{/foreach}</ul>
+<p class="hint">{shopMultilanguageassystBackendLocale::t('Можно удалить все дополнительные языки и добавить свои. Переводы сохраняются: добавьте тот же код языка, чтобы вернуть их. Язык оригинала удалить нельзя.')|escape}</p>
+<form id="multilanguageassyst-visibility-form" method="post" action="{$editor_url|escape}?plugin=multilanguageassyst&amp;module=backend&amp;action=languages">
+{$wa->csrf()}<input type="hidden" name="operation" value="visibility">
+<h3>{shopMultilanguageassystBackendLocale::t('Разделы на дополнительных языках')|escape}</h3>
+{foreach $target_languages as $code=>$name}<p><strong>{$name|escape}</strong><br>
+<label class="multilanguageassyst-check"><input type="checkbox" name="sections[{$code|escape}][blog]" value="1"{if shopMultilanguageassystPlugin::sectionVisible('blog',$code)} checked{/if}>{shopMultilanguageassystBackendLocale::t('Показывать блог')|escape}</label>
+<label class="multilanguageassyst-check" style="margin-left:16px"><input type="checkbox" name="sections[{$code|escape}][tags]" value="1"{if shopMultilanguageassystPlugin::sectionVisible('tags',$code)} checked{/if}>{shopMultilanguageassystBackendLocale::t('Показывать теги')|escape}</label></p>{/foreach}
+<p class="hint">{shopMultilanguageassystBackendLocale::t('Отключённые разделы скрываются из навигации поддерживаемой темы, прямые адреса возвращают 404. Исходный язык и сохранённые переводы не меняются.')|escape}</p>
+<button type="submit" class="button">{shopMultilanguageassystBackendLocale::t('Сохранить доступность разделов')|escape}</button></form>
+<form id="multilanguageassyst-language-form" method="post" action="{$editor_url|escape}?plugin=multilanguageassyst&amp;module=backend&amp;action=languages">
+{$wa->csrf()}
+<div class="multilanguageassyst-search">
+<label>{shopMultilanguageassystBackendLocale::t('Код языка оригинала')|escape}<input name="source_code" value="{$source_language|escape}" required pattern="[a-z]{ldelim}2,3{rdelim}_[A-Z]{ldelim}2{rdelim}"></label>
+<label>{shopMultilanguageassystBackendLocale::t('Название языка оригинала')|escape}<input name="source_name" value="{$source_name|escape}" required maxlength="80"></label>
+<label>{shopMultilanguageassystBackendLocale::t('Код дополнительного языка')|escape}<input name="code" placeholder="en_US" required pattern="[a-z]{ldelim}2,3{rdelim}_[A-Z]{ldelim}2{rdelim}"></label>
+<label>{shopMultilanguageassystBackendLocale::t('Название дополнительного языка')|escape}<input name="name" placeholder="English" required maxlength="80"></label>
+<button class="button" type="submit">{shopMultilanguageassystBackendLocale::t('Сохранить язык')|escape}</button></div>
+<p class="hint">{shopMultilanguageassystBackendLocale::t('Чтобы изменить название языка, укажите его существующий код. Изменение языка оригинала не переводит исходные тексты магазина.')|escape}</p>
+<p id="multilanguageassyst-language-result" role="status" aria-live="polite"></p>
+</form></div>

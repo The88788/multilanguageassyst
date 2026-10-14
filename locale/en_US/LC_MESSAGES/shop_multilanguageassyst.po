@@ -1,0 +1,588 @@
+msgid ""
+msgstr "Project-Id-Version: MultiLanguageAssyst 0.6.18\nLanguage: en_US\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "\nОбъектов: "
+msgstr "\nItems: "
+
+msgid "\nФайл: "
+msgstr "\nFile: "
+
+msgid "\nЯзык: "
+msgstr "\nLanguage: "
+
+msgid " из "
+msgstr " of "
+
+msgid " удалён из витрины; переводы сохранены"
+msgstr " removed from the storefront; translations retained"
+
+msgid "(до 100 записей)."
+msgstr "(up to 100 items)."
+
+msgid ", замен "
+msgstr ", replacements "
+
+msgid ", замен: "
+msgstr ", replacements: "
+
+msgid ", поле "
+msgstr ", field "
+
+msgid ", полей "
+msgstr ", fields "
+
+msgid ", полей: "
+msgstr ", fields: "
+
+msgid "- язык оригинала"
+msgstr "- source language"
+
+msgid ". Партия"
+msgstr ". Batch"
+
+msgid ". Страница "
+msgstr ". Page "
+
+msgid ": в текстовом поле нельзя использовать HTML"
+msgstr ": HTML is not allowed in a plain text field"
+
+msgid ": код или тип не совпадает с оригиналом. Экспортируйте файл из этого магазина."
+msgstr ": the code or type does not match the source. Export the file from this shop."
+
+msgid ": неподдерживаемая разметка «"
+msgstr ": unsupported markup \""
+
+msgid ": объектов "
+msgstr ": items "
+
+msgid ": перевод сохранён"
+msgstr ": translation saved"
+
+msgid ": сохраните подстановки %s, %d и другие параметры в исходном порядке"
+msgstr ": preserve %s, %d and other placeholders in their original order"
+
+msgid "· Автор:"
+msgstr "· Author:"
+
+msgid "». Используйте текст, абзацы, списки и изображения."
+msgstr "\". Use text, paragraphs, lists, and images."
+
+msgid "Блок темы не найден"
+msgstr "Theme block not found"
+
+msgid "Блок темы не совпадает с исходным. Выполните новый экспорт."
+msgstr "The theme block does not match the source. Export it again."
+
+msgid "Вариант услуги: "
+msgstr "Service option: "
+
+msgid "Владислав · Автор плагина"
+msgstr "Vladislav · Plugin author"
+
+msgid "Время"
+msgstr "Time"
+
+msgid "Все (до 200)"
+msgstr "All (up to 200)"
+
+msgid "Вступление"
+msgstr "Introduction"
+
+msgid "Выберите JSON размером до 5 МБ."
+msgstr "Choose a JSON file of up to 5 MB."
+
+msgid "Выберите объекты для экспорта"
+msgstr "Select items to export"
+
+msgid "Выберите от 1 до 100 объектов"
+msgstr "Select between 1 and 100 items"
+
+msgid "Выберите содержимое"
+msgstr "Select content"
+
+msgid "Выберите язык"
+msgstr "Select language"
+
+msgid "Выбрать"
+msgstr "Select"
+
+msgid "Выбрать JSON"
+msgstr "Choose JSON"
+
+msgid "Выбрать всю текущую партию"
+msgstr "Select the entire current batch"
+
+msgid "Далее"
+msgstr "Next"
+
+msgid "Для замены существующих переводов нужно явное подтверждение"
+msgstr "Replacing existing translations requires explicit confirmation"
+
+msgid "Для редактирования одного объекта нажмите его название."
+msgstr "Click an item's name to edit it."
+
+msgid "Добавьте язык"
+msgstr "Add a language"
+
+msgid "Добавьте язык перевода во вкладке «Языки»"
+msgstr "Add a target language in the Languages tab"
+
+msgid "Дополнительные услуги и варианты"
+msgstr "Additional services and options"
+
+msgid "Доступность блога и тегов сохранена"
+msgstr "Blog and tag visibility saved"
+
+msgid "Доступность разделов сохранена."
+msgstr "Section visibility saved."
+
+msgid "Журнал"
+msgstr "Log"
+
+msgid "Журнал операций"
+msgstr "Operation log"
+
+msgid "Журнал хранит только последние 200 событий импорта и других операций. При добавлении новых событий старые автоматически удаляются. Полные тексты переводов и содержимое файлов не сохраняются."
+msgstr "The log keeps only the latest 200 import and other operation events. Older events are removed automatically. Full translations and file contents are not stored in the log."
+
+msgid "Заголовок"
+msgstr "Title"
+
+msgid "Заголовок для поисковых систем"
+msgstr "SEO title"
+
+msgid "Загрузка списка…"
+msgstr "Loading list..."
+
+msgid "Записей на странице:"
+msgstr "Entries per page:"
+
+msgid "Записей: 0"
+msgstr "Entries: 0"
+
+msgid "Запись данных из шаблона запрещена"
+msgstr "Writing data from a template is not allowed"
+
+msgid "Значение не относится к этому товару"
+msgstr "This value does not belong to this product"
+
+msgid "Значение: "
+msgstr "Value: "
+
+msgid "Импорт"
+msgstr "Import"
+
+msgid "Импорт выполняется…"
+msgstr "Importing..."
+
+msgid "Импорт завершён."
+msgstr "Import complete."
+
+msgid "Импортировать"
+msgstr "Import"
+
+msgid "Исходные тексты хранятся в магазине. Переводы хранятся отдельно в плагине."
+msgstr "Source texts are stored in the shop. Translations are stored separately by the plugin."
+
+msgid "Исходный текст изменился. Обновите редактор."
+msgstr "The source text has changed. Reload the editor."
+
+msgid "Исходный текст изменился. Проверьте перевод."
+msgstr "The source text has changed. Review the translation."
+
+msgid "Категории"
+msgstr "Categories"
+
+msgid "Ключевые слова"
+msgstr "Keywords"
+
+msgid "Ключевые слова для поисковых систем"
+msgstr "SEO keywords"
+
+msgid "Код дополнительного языка"
+msgstr "Additional language code"
+
+msgid "Код языка должен иметь вид en_US или kk_KZ"
+msgstr "The language code must have a format such as en_US or kk_KZ"
+
+msgid "Код языка оригинала"
+msgstr "Source language code"
+
+msgid "Конфликт идентификаторов блоков темы"
+msgstr "Conflicting theme block identifiers"
+
+msgid "Краткое описание"
+msgstr "Summary"
+
+msgid "Максимум 30 языков"
+msgstr "Maximum 30 languages"
+
+msgid "Можно удалить все дополнительные языки и добавить свои. Переводы сохраняются: добавьте тот же код языка, чтобы вернуть их. Язык оригинала удалить нельзя."
+msgstr "You can remove all additional languages and add your own. Translations are retained: add the same language code to restore them. The source language cannot be removed."
+
+msgid "МультиязыкАссист"
+msgstr "MultiLanguageAssyst"
+
+msgid "МультиязыкАссист - переводы витрины"
+msgstr "MultiLanguageAssyst - storefront translations"
+
+msgid "Назад"
+msgstr "Previous"
+
+msgid "Название"
+msgstr "Name"
+
+msgid "Название дополнительного языка"
+msgstr "Additional language name"
+
+msgid "Название или модель"
+msgstr "Name or model"
+
+msgid "Название услуги"
+msgstr "Service name"
+
+msgid "Название характеристики"
+msgstr "Feature name"
+
+msgid "Название языка оригинала"
+msgstr "Source language name"
+
+msgid "Названия и значения общие для каталога: перевод используется во всех товарах с той же характеристикой и значением. Числа и единицы измерения не переводятся."
+msgstr "Names and values are shared across the catalog. Translations apply to all products with the same feature and value. Numbers and measurement units are not translated."
+
+msgid "Настройки языков сохранены"
+msgstr "Language settings saved"
+
+msgid "Не удалось выполнить операцию. "
+msgstr "Could not complete the operation. "
+
+msgid "Не удалось загрузить содержимое. "
+msgstr "Could not load content. "
+
+msgid "Не удалось прочитать файл. "
+msgstr "Could not read the file. "
+
+msgid "Неверный формат файла перевода"
+msgstr "Invalid translation file format"
+
+msgid "Недействительный запрос"
+msgstr "Invalid request"
+
+msgid "Недопустимое поле или размер перевода"
+msgstr "Invalid field or translation size"
+
+msgid "Неизвестная ошибка"
+msgstr "Unknown error"
+
+msgid "Неизвестный тип содержимого"
+msgstr "Unknown content type"
+
+msgid "Некорректная характеристика товара"
+msgstr "Invalid product feature"
+
+msgid "Некорректное поле перевода"
+msgstr "Invalid translation field"
+
+msgid "Некорректные характеристики"
+msgstr "Invalid features"
+
+msgid "Некорректный выбор объектов"
+msgstr "Invalid item selection"
+
+msgid "Некорректный запрос"
+msgstr "Invalid request"
+
+msgid "Некорректный объект перевода"
+msgstr "Invalid translation item"
+
+msgid "Нельзя удалить язык оригинала"
+msgstr "The source language cannot be removed"
+
+msgid "Нет дополнительных языков. Откройте вкладку «Языки» и добавьте язык перевода."
+msgstr "No additional languages. Open the Languages tab and add a target language."
+
+msgid "Ничего не найдено."
+msgstr "No items found."
+
+msgid "Номер партии"
+msgstr "Batch number"
+
+msgid "Нужна помощь с МультиязыкАссист или Webasyst?"
+msgstr "Need help with MultiLanguageAssyst or Webasyst?"
+
+msgid "Нужны права управления настройками магазина"
+msgstr "Shop settings management permission is required"
+
+msgid "Обновите страницу и проверьте вход в админку."
+msgstr "Reload the page and check that you are signed in to the backend."
+
+msgid "Обновить"
+msgstr "Refresh"
+
+msgid "Объект "
+msgstr "Item "
+
+msgid "Объект не найден"
+msgstr "Item not found"
+
+msgid "Операций пока нет."
+msgstr "No operations yet."
+
+msgid "Операция"
+msgstr "Operation"
+
+msgid "Описание"
+msgstr "Description"
+
+msgid "Описание для поисковых систем"
+msgstr "SEO description"
+
+msgid "Оригинал"
+msgstr "Original"
+
+msgid "Отключённые разделы скрываются из навигации поддерживаемой темы, прямые адреса возвращают 404. Исходный язык и сохранённые переводы не меняются."
+msgstr "Disabled sections are hidden from navigation in supported themes. Direct URLs return 404. The source language and saved translations are unchanged."
+
+msgid "Открытие редактора…"
+msgstr "Opening editor..."
+
+msgid "Отмена"
+msgstr "Cancel"
+
+msgid "Партии для перевода"
+msgstr "Translation batches"
+
+msgid "Партия"
+msgstr "Batch"
+
+msgid "Перевод -"
+msgstr "Translation -"
+
+msgid "Перевод сохранён. Можно выбрать следующую запись."
+msgstr "Translation saved. You can select the next item."
+
+msgid "Перевод через файл"
+msgstr "Translate using a file"
+
+msgid "Переводы"
+msgstr "Translations"
+
+msgid "Перейти"
+msgstr "Go"
+
+msgid "Плагин бесплатный. Индивидуальная установка, настройка и адаптация доступны как отдельные платные услуги."
+msgstr "The plugin is free. Installation, setup, and customization are available as separate paid services."
+
+msgid "Повторяющийся объект в файле"
+msgstr "Duplicate item in file"
+
+msgid "Поиск по названию"
+msgstr "Search by name"
+
+msgid "Показано"
+msgstr "Showing"
+
+msgid "Показано "
+msgstr "Showing "
+
+msgid "Показать"
+msgstr "Show"
+
+msgid "Показывать блог"
+msgstr "Show blog"
+
+msgid "Показывать теги"
+msgstr "Show tags"
+
+msgid "После скачивания выберите следующую партию. Выбор галочек действует только для текущей партии."
+msgstr "After downloading, select the next batch. Selected checkboxes apply only to the current batch."
+
+msgid "Проверить файл"
+msgstr "Validate file"
+
+msgid "Проверка завершена."
+msgstr "Validation complete."
+
+msgid "Проверка файла"
+msgstr "File validation"
+
+msgid "Проверка файла…"
+msgstr "Validating file..."
+
+msgid "Публикации"
+msgstr "Content"
+
+msgid "Раздел не установлен в этом магазине"
+msgstr "This section is not installed in this shop"
+
+msgid "Раздел недоступен на выбранном языке"
+msgstr "This section is unavailable in the selected language"
+
+msgid "Разделы"
+msgstr "Sections"
+
+msgid "Разделы на дополнительных языках"
+msgstr "Sections in additional languages"
+
+msgid "Разрешить замену существующих переводов"
+msgstr "Allow existing translations to be replaced"
+
+msgid "Результат"
+msgstr "Result"
+
+msgid "Ручное заполнение переводов и экспорт/импорт языковых файлов."
+msgstr "Manual translations and language file export/import."
+
+msgid "Скачать выбранные тексты ("
+msgstr "Download selected texts ("
+
+msgid "Скачать выбранные тексты (0)"
+msgstr "Download selected texts (0)"
+
+msgid "Следующие 100 →"
+msgstr "Next 100 →"
+
+msgid "Содержимое страницы или блока"
+msgstr "Page or block content"
+
+msgid "Сохранение"
+msgstr "Save"
+
+msgid "Сохранение разделов…"
+msgstr "Saving sections..."
+
+msgid "Сохранение языка…"
+msgstr "Saving language..."
+
+msgid "Сохранение…"
+msgstr "Saving..."
+
+msgid "Сохраните переменную {$date} в переводе блока темы"
+msgstr "Preserve the {$date} variable in the theme block translation"
+
+msgid "Сохранить доступность разделов"
+msgstr "Save section visibility"
+
+msgid "Сохранить переводы"
+msgstr "Save translations"
+
+msgid "Сохранить язык"
+msgstr "Save language"
+
+msgid "Статьи блога"
+msgstr "Blog posts"
+
+msgid "Страницы магазина"
+msgstr "Shop pages"
+
+msgid "Также разрабатываю плагины, дорабатываю сайты и подключаю внешние сервисы к Webasyst."
+msgstr "I also develop plugins, customize websites, and integrate external services with Webasyst."
+
+msgid "Теги блога"
+msgstr "Blog tags"
+
+msgid "Теги товаров"
+msgstr "Product tags"
+
+msgid "Текст"
+msgstr "Text"
+
+msgid "Текст ссылки продолжения"
+msgstr "Read more link text"
+
+msgid "Текстовые блоки темы"
+msgstr "Theme text blocks"
+
+msgid "Товары"
+msgstr "Products"
+
+msgid "Товары показаны от новых к старым. После перевода выберите следующую запись."
+msgstr "Products are listed from newest to oldest. After translating, select the next item."
+
+msgid "Удаление языка…"
+msgstr "Removing language..."
+
+msgid "Удалить"
+msgstr "Delete"
+
+msgid "Укажите название языка до 80 символов"
+msgstr "Enter a language name of up to 80 characters"
+
+msgid "Управление переводами"
+msgstr "Translation management"
+
+msgid "Установка и настройка плагина, адаптация переводов к вашей теме, помощь с экспортом и импортом языковых файлов."
+msgstr "Plugin installation and setup, adapting translations to your theme, and help with language file export and import."
+
+msgid "Файл"
+msgstr "File"
+
+msgid "Файл не выбран"
+msgstr "No file selected"
+
+msgid "Файл слишком большой: максимум 5 МБ"
+msgstr "File too large: maximum 5 MB"
+
+msgid "Фраза интерфейса #"
+msgstr "Interface phrase #"
+
+msgid "Фраза интерфейса не найдена"
+msgstr "Interface phrase not found"
+
+msgid "Фразы интерфейса"
+msgstr "Interface phrases"
+
+msgid "Характеристика #"
+msgstr "Feature #"
+
+msgid "Характеристики и значения"
+msgstr "Features and values"
+
+msgid "Характеристики товара"
+msgstr "Product features"
+
+msgid "Чтобы изменить название языка, укажите его существующий код. Изменение языка оригинала не переводит исходные тексты магазина."
+msgstr "To rename a language, enter its existing code. Changing the source language does not translate the shop's source texts."
+
+msgid "Экспорт"
+msgstr "Export"
+
+msgid "Экспортируйте тексты, передайте человеку для перевода через ChatGPT, затем загрузите готовый JSON."
+msgstr "Export the texts, have someone translate them using ChatGPT, then upload the completed JSON file."
+
+msgid "Язык "
+msgstr "Language "
+
+msgid "Язык определяется по target_language в JSON. Перед импортом проверьте указанный язык."
+msgstr "The target language is specified by target_language in the JSON file. Check it before importing."
+
+msgid "Язык оригинала в файле не совпадает с настройками магазина"
+msgstr "The file's source language does not match the shop settings"
+
+msgid "Язык оригинала и перевода должны различаться"
+msgstr "Source and target languages must be different"
+
+msgid "Язык сохранён. Выберите его в разделе содержимого."
+msgstr "Language saved. Select it in the Content tab."
+
+msgid "Язык удалён. Сохранённые переводы можно вернуть, добавив тот же код языка."
+msgstr "Language removed. Add the same language code to restore its saved translations."
+
+msgid "Язык уже удалён или не найден"
+msgstr "The language has already been removed or was not found"
+
+msgid "Языки"
+msgstr "Languages"
+
+msgid "Языки витрины"
+msgstr "Storefront languages"
+
+msgid "из"
+msgstr "of"
+
+msgid "← К списку"
+msgstr "← Back to list"
+
+msgid "← Предыдущие 100"
+msgstr "← Previous 100"
+

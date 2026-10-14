@@ -1,0 +1,1542 @@
+{
+    "1792210": {
+        "key": "Confirm order",
+        "source": "Подтвердить заказ"
+    },
+    "1827596": {
+        "key": "reset",
+        "source": "очистить"
+    },
+    "3468239": {
+        "key": "Select a point",
+        "source": "Выбрать пункт"
+    },
+    "3475434": {
+        "key": "Reviews without rating",
+        "source": "Отзывы без оценки"
+    },
+    "3967775": {
+        "key": "Pickup option selection",
+        "source": "Выбор варианта самовывоза"
+    },
+    "5824795": {
+        "key": "New & Popular",
+        "source": "Новые и популярные"
+    },
+    "9012608": {
+        "key": "goods",
+        "source": "товара"
+    },
+    "9497924": {
+        "key": "Brand",
+        "source": "Бренд"
+    },
+    "9877303": {
+        "key": "Saving",
+        "source": "Экономия"
+    },
+    "10141393": {
+        "key": "Empty cart",
+        "source": "Очистка корзины"
+    },
+    "10740348": {
+        "key": "products",
+        "source": "товаров"
+    },
+    "10776804": {
+        "key": "Оптовикам и Дизайнерам",
+        "source": "Оптовикам и Дизайнерам"
+    },
+    "11081073": {
+        "key": "Квартира",
+        "source": "Квартира"
+    },
+    "11472857": {
+        "key": "Signup",
+        "source": "Регистрация"
+    },
+    "14571180": {
+        "key": "Комментарий к заказу",
+        "source": "Комментарий к заказу"
+    },
+    "15286404": {
+        "key": "Add to cart",
+        "source": "В корзину"
+    },
+    "15320212": {
+        "key": "Next &rarr;",
+        "source": "Далее &rarr;"
+    },
+    "16950897": {
+        "key": "clear the list",
+        "source": "очистить список"
+    },
+    "18507624": {
+        "key": "Done",
+        "source": "Готово"
+    },
+    "20124278": {
+        "key": "Tags",
+        "source": "Тэги"
+    },
+    "21314229": {
+        "key": "Select shipping",
+        "source": "Выбрать доставку"
+    },
+    "22493274": {
+        "key": "%s reviews",
+        "source": "%s отзывы"
+    },
+    "22579166": {
+        "key": "How to reach",
+        "source": "Как добраться"
+    },
+    "22825634": {
+        "key": "Edit profile",
+        "source": "Редактировать профиль"
+    },
+    "23821813": {
+        "key": "Photos of buyers",
+        "source": "Фотографии покупателей"
+    },
+    "24289744": {
+        "key": "Add reply",
+        "source": "Добавить ответ"
+    },
+    "24319514": {
+        "key": "Оформление",
+        "source": "Оформление"
+    },
+    "25081113": {
+        "key": "Place order",
+        "source": "Оформить заказ"
+    },
+    "25228683": {
+        "key": "Поиск",
+        "source": "Поиск"
+    },
+    "25659773": {
+        "key": "more",
+        "source": "подробнее"
+    },
+    "26245110": {
+        "key": "Generating a shopping cart from selected items",
+        "source": "Формируем корзину из выбранных товаров"
+    },
+    "26699502": {
+        "key": "Cancel",
+        "source": "Отмена"
+    },
+    "27917088": {
+        "key": "Назад",
+        "source": "Назад"
+    },
+    "28478744": {
+        "key": "Viewed",
+        "source": "Просмотренные"
+    },
+    "30051357": {
+        "key": "Watched",
+        "source": "Смотрели"
+    },
+    "30471584": {
+        "key": "Оплата",
+        "source": "Оплата"
+    },
+    "30580645": {
+        "key": "Shipping cost",
+        "source": "Стоимость доставки"
+    },
+    "31096468": {
+        "key": "Имя",
+        "source": "Имя"
+    },
+    "32130091": {
+        "key": "No",
+        "source": "Нет"
+    },
+    "32380394": {
+        "key": "Страна",
+        "source": "Страна"
+    },
+    "32881560": {
+        "key": "hide",
+        "source": "скрыть"
+    },
+    "33511331": {
+        "key": "Next",
+        "source": "След"
+    },
+    "34934158": {
+        "key": "Show all",
+        "source": "Показать все"
+    },
+    "35742068": {
+        "key": "discount",
+        "source": "скидка"
+    },
+    "35814738": {
+        "key": "Registered customers apply for affiliate bonuses and discounts on future orders.",
+        "source": "Зарегистрированные покупатели получают накопительные бонусные баллы и скидки на будущие заказы."
+    },
+    "36506093": {
+        "key": "Total size of selected files cannot be greater than",
+        "source": "Общий размер выбранных файлов не должен превышать"
+    },
+    "36694966": {
+        "key": "My orders",
+        "source": "Мои заказы"
+    },
+    "37413774": {
+        "key": "Go back to home page",
+        "source": "Вернуться на главную страницу"
+    },
+    "38928078": {
+        "key": "point",
+        "source": "балл"
+    },
+    "41151566": {
+        "key": "Pre-order only",
+        "source": "Под заказ"
+    },
+    "41484959": {
+        "key": "Select a shipping type.",
+        "source": "Выберите тип доставки."
+    },
+    "42503411": {
+        "key": "Invalid coupon code",
+        "source": "Купон недействителен"
+    },
+    "43550630": {
+        "key": "Share",
+        "source": "Поделиться"
+    },
+    "43621007": {
+        "key": "Upload photos",
+        "source": "Загрузить фотографии"
+    },
+    "43696238": {
+        "key": "Город",
+        "source": "Город"
+    },
+    "44104612": {
+        "key": "О компании",
+        "source": "О компании"
+    },
+    "44974607": {
+        "key": "no rate",
+        "source": "без оценки"
+    },
+    "45417818": {
+        "key": "Any",
+        "source": "Неважно"
+    },
+    "45606432": {
+        "key": "Back to shopping",
+        "source": "Вернуться к покупкам"
+    },
+    "46576355": {
+        "key": "Your name",
+        "source": "Ваше имя"
+    },
+    "47113721": {
+        "key": "View order",
+        "source": "Просмотреть заказ"
+    },
+    "47564927": {
+        "key": "Password recovery",
+        "source": "Восстановление пароля"
+    },
+    "47707158": {
+        "key": "No products were found.",
+        "source": "Не найдено ни одного товара."
+    },
+    "48629073": {
+        "key": "Shipping area",
+        "source": "Область доставки"
+    },
+    "49663962": {
+        "key": "Гарантия и возврат",
+        "source": "Гарантия и возврат"
+    },
+    "49675197": {
+        "key": "Additional services",
+        "source": "Дополнительные услуги"
+    },
+    "49811662": {
+        "key": "Search posts",
+        "source": "Search posts"
+    },
+    "49873106": {
+        "key": "Clear the history",
+        "source": "Очистить историю"
+    },
+    "49977194": {
+        "key": "See also",
+        "source": "Рекомендуем посмотреть"
+    },
+    "51390476": {
+        "key": "Edit billing address",
+        "source": "Изменить адрес плательщика"
+    },
+    "51529907": {
+        "key": "Favorite list is empty",
+        "source": "Список избранного пуст"
+    },
+    "51952641": {
+        "key": "Дом",
+        "source": "Дом"
+    },
+    "52312366": {
+        "key": "Apply",
+        "source": "Применить"
+    },
+    "54705794": {
+        "key": "Unsupported contact data type",
+        "source": "Неподдерживаемый тип контактных данных"
+    },
+    "54845712": {
+        "key": "Enter your PIN",
+        "source": "Введите PIN-код"
+    },
+    "54871968": {
+        "key": "I’m a new customer",
+        "source": "Я новый покупатель"
+    },
+    "55249471": {
+        "key": "You have no reviews",
+        "source": "You have no reviews"
+    },
+    "55831291": {
+        "key": "Фамилия",
+        "source": "Фамилия"
+    },
+    "58964675": {
+        "key": "Dignity",
+        "source": "Достоинства"
+    },
+    "59015619": {
+        "key": "Enter your review",
+        "source": "Введите отзыв"
+    },
+    "59724188": {
+        "key": "Log in or sign up",
+        "source": "Войти или зарегистрироваться"
+    },
+    "61310614": {
+        "key": "Home",
+        "source": "Главная"
+    },
+    "61567916": {
+        "key": "Получатель",
+        "source": "Получатель"
+    },
+    "61857187": {
+        "key": "Thank you!",
+        "source": "Спасибо!"
+    },
+    "62411770": {
+        "key": "Оформить заказ",
+        "source": "Оформить заказ"
+    },
+    "63092388": {
+        "key": "You can upload a maximum of 10 photos.",
+        "source": "Можно загрузить не больше 10 фотографий."
+    },
+    "64280332": {
+        "key": "An error occurred while processing your payment.",
+        "source": "При обработке платежа произошла ошибка."
+    },
+    "66179792": {
+        "key": "Helpdesk",
+        "source": "Helpdesk"
+    },
+    "66747487": {
+        "key": "Your email address",
+        "source": "Укажите ваш email"
+    },
+    "67018638": {
+        "key": "for a detailed review",
+        "source": "за подробный отзыв"
+    },
+    "67383628": {
+        "key": "hours",
+        "source": "часов"
+    },
+    "68513033": {
+        "key": "Доставка и оплата",
+        "source": "Доставка и оплата"
+    },
+    "69117682": {
+        "key": "Incorrect value",
+        "source": "Неправильное значение"
+    },
+    "71574938": {
+        "key": "Back to the store",
+        "source": "Вернуться в магазин"
+    },
+    "72310336": {
+        "key": "Comment",
+        "source": "Отзывов"
+    },
+    "74669455": {
+        "key": "Your payment has been successfully accepted. We will process your order and contact you shortly.",
+        "source": "Оплата успешно принята. Мы обработаем ваш заказ и свяжемся с вами в ближайшее время."
+    },
+    "75043224": {
+        "key": "Please confirm your phone number",
+        "source": "Подтвердите свой номер телефона"
+    },
+    "75149106": {
+        "key": "Contact us",
+        "source": "Связаться с нами"
+    },
+    "75311698": {
+        "key": "Loading...",
+        "source": "Загрузка..."
+    },
+    "75376775": {
+        "key": "Tax",
+        "source": "Налог"
+    },
+    "76164731": {
+        "key": "or select other SKUs %s",
+        "source": "или выберите другие артикулы %s"
+    },
+    "76424343": {
+        "key": "Shipping service",
+        "source": "Служба доставки"
+    },
+    "76944917": {
+        "key": "Log out",
+        "source": "Log out"
+    },
+    "77342316": {
+        "key": "Search",
+        "source": "Поиск"
+    },
+    "78415532": {
+        "key": "Customer type",
+        "source": "Тип покупателя"
+    },
+    "79151401": {
+        "key": "for a review with a photo",
+        "source": "за отзыв с фото"
+    },
+    "79692222": {
+        "key": "Create permanent user account",
+        "source": "Зарегистрироваться как постоянный покупатель"
+    },
+    "80221137": {
+        "key": "or drag &amp; drop here (max. 10 photos)",
+        "source": "или перетащите сюда (до 10 фото)"
+    },
+    "80258527": {
+        "key": "Found products",
+        "source": "Найдено товаров"
+    },
+    "81297707": {
+        "key": "Items in the basket",
+        "source": "Товары в корзине"
+    },
+    "82055529": {
+        "key": "Set password",
+        "source": "Придумайте пароль"
+    },
+    "82692288": {
+        "key": "Products",
+        "source": "Товары"
+    },
+    "83725108": {
+        "key": "You are authorized as a company, and orders can be placed only by persons. Please %slog out%s of your account to check out as a person.",
+        "source": "Вы авторизованы как юридическое лицо, но заказ могут оформить только физические лица. %sВыйдите%s из своего аккаунта, чтобы оформить заказ как физическое лицо."
+    },
+    "88739469": {
+        "key": "Error",
+        "source": "Ошибка"
+    },
+    "89259796": {
+        "key": "Select payment",
+        "source": "Выбрать оплату"
+    },
+    "89953700": {
+        "key": "ДЛЯ ПОКУПАТЕЛЕЙ",
+        "source": "ДЛЯ ПОКУПАТЕЛЕЙ"
+    },
+    "90516203": {
+        "key": "My requests",
+        "source": "My requests"
+    },
+    "90810436": {
+        "key": "Your review reply has been added!",
+        "source": "Ваш ответ на отзыв был добавлен!"
+    },
+    "91158771": {
+        "key": "Address",
+        "source": "Адрес"
+    },
+    "93426524": {
+        "key": "Public",
+        "source": "Public"
+    },
+    "93487527": {
+        "key": "KB",
+        "source": "КБ"
+    },
+    "94306414": {
+        "key": "seconds",
+        "source": "сек"
+    },
+    "95227786": {
+        "key": "not selected",
+        "source": "не выбрано"
+    },
+    "96257035": {
+        "key": "Russian",
+        "source": "Русский"
+    },
+    "96440384": {
+        "key": "sent to your phone",
+        "source": "отправлен на телефон"
+    },
+    "97361395": {
+        "key": "Experience of use",
+        "source": "Опыт использования"
+    },
+    "99459845": {
+        "key": "Add review",
+        "source": "Добавить отзыв"
+    },
+    "102331798": {
+        "key": "delete",
+        "source": "удалить"
+    },
+    "103573436": {
+        "key": "Please specify the address",
+        "source": "Пожалуйста, уточните адрес"
+    },
+    "104391242": {
+        "key": "Filter",
+        "source": "Фильтр"
+    },
+    "104713913": {
+        "key": "Phone",
+        "source": "Телефон"
+    },
+    "105127353": {
+        "key": "My subscriptions",
+        "source": "Мои подписки"
+    },
+    "105849201": {
+        "key": "My reviews",
+        "source": "My reviews"
+    },
+    "107211292": {
+        "key": "to",
+        "source": "до"
+    },
+    "107633473": {
+        "key": "Send code",
+        "source": "Выслать код"
+    },
+    "107839051": {
+        "key": "Search History",
+        "source": "История поиска"
+    },
+    "108432360": {
+        "key": "Estimated shipping time",
+        "source": "Срок доставки"
+    },
+    "108693325": {
+        "key": "Required field",
+        "source": "Обязательное поле"
+    },
+    "108862501": {
+        "key": "КОНТАКТЫ",
+        "source": "КОНТАКТЫ"
+    },
+    "109020588": {
+        "key": "You have no order history yet.",
+        "source": "Ваша история заказов пуста."
+    },
+    "109932768": {
+        "key": "You have no affiliate history yet.",
+        "source": "У вас еще не было начислений по партнерской бонусной программе."
+    },
+    "110828392": {
+        "key": "Limitations",
+        "source": "Недостатки"
+    },
+    "111686320": {
+        "key": "log out",
+        "source": "выйти"
+    },
+    "112209422": {
+        "key": "Added",
+        "source": "Добавлено"
+    },
+    "113117449": {
+        "key": "Order",
+        "source": "Заказ"
+    },
+    "114480539": {
+        "key": "Cart",
+        "source": "Корзина"
+    },
+    "115301666": {
+        "key": "Личный кабинет",
+        "source": "Личный кабинет"
+    },
+    "116523766": {
+        "key": "List",
+        "source": "Список"
+    },
+    "117739321": {
+        "key": "Payment",
+        "source": "Оплата"
+    },
+    "118178389": {
+        "key": "This page is under construction.",
+        "source": "Эта страница находится в стадии разработки."
+    },
+    "118613034": {
+        "key": "Please confirm your email address",
+        "source": "Подтвердите свой email-адрес"
+    },
+    "119113925": {
+        "key": "Text",
+        "source": "Текст"
+    },
+    "119414855": {
+        "key": "Recall",
+        "source": "Отзыва"
+    },
+    "119709445": {
+        "key": "Total less shipping cost",
+        "source": "Итого без учета доставки"
+    },
+    "121180826": {
+        "key": "Prev",
+        "source": "Пред"
+    },
+    "121972106": {
+        "key": "day off",
+        "source": "выходной"
+    },
+    "123230117": {
+        "key": "from",
+        "source": "от"
+    },
+    "124322034": {
+        "key": "Back",
+        "source": "Назад"
+    },
+    "124469280": {
+        "key": "+1-222-333-4455",
+        "source": "+X 111 222-33-44"
+    },
+    "125057491": {
+        "key": "Доставка",
+        "source": "Доставка"
+    },
+    "125247215": {
+        "key": "Customers who bought %s also bought",
+        "source": "Покупатели, которые приобрели %s, также купили"
+    },
+    "126321294": {
+        "key": "To answer",
+        "source": "Ответить"
+    },
+    "128199477": {
+        "key": "Enter a description here",
+        "source": "Введите описание"
+    },
+    "128822441": {
+        "key": "Оплата и доставка",
+        "source": "Оплата и доставка"
+    },
+    "129617604": {
+        "key": "Select a shipping option",
+        "source": "Выберите вариант доставки"
+    },
+    "130364093": {
+        "key": "This category does not contain any products.",
+        "source": "В этой категории нет ни одного товара."
+    },
+    "131195483": {
+        "key": "Each file’s size cannot be greater than",
+        "source": "Размер каждого файла не должен превышать"
+    },
+    "131643237": {
+        "key": "Search by request",
+        "source": "Поиск по запросу"
+    },
+    "131722107": {
+        "key": "Close",
+        "source": "Закрыть"
+    },
+    "132697377": {
+        "key": "Title",
+        "source": "Заголовок"
+    },
+    "133312470": {
+        "key": "Personal Area",
+        "source": "Личный кабинет"
+    },
+    "134232648": {
+        "key": "Welcome to your new site!",
+        "source": "Welcome to your new site!"
+    },
+    "134497736": {
+        "key": "PAGE NOT FOUND",
+        "source": "СТРАНИЦА НЕ НАЙДЕНА"
+    },
+    "136493753": {
+        "key": "Quantity",
+        "source": "Количество"
+    },
+    "136509950": {
+        "key": "Телефон",
+        "source": "Телефон"
+    },
+    "136773943": {
+        "key": "Unsupported image type. Use PNG, GIF, WEBP and JPEG image files only.",
+        "source": "Недопустимый тип изображения. Используйте файлы в форматах PNG, GIF, WEBP и JPEG."
+    },
+    "137870013": {
+        "key": "Product Filter",
+        "source": "Фильтр товаров"
+    },
+    "138089155": {
+        "key": "Clear",
+        "source": "Clear"
+    },
+    "139245448": {
+        "key": "Reviews",
+        "source": "Отзывы"
+    },
+    "139303153": {
+        "key": "Confirmation code",
+        "source": "Проверочный код"
+    },
+    "140130732": {
+        "key": "Yes",
+        "source": "Да"
+    },
+    "141128980": {
+        "key": "I already have an account",
+        "source": "Я уже заказывал ранее и у меня есть аккаунт"
+    },
+    "142523275": {
+        "key": "Please select a payment method",
+        "source": "Выберите способ оплаты"
+    },
+    "144783697": {
+        "key": "Сomments",
+        "source": "Комментарий"
+    },
+    "145201290": {
+        "key": "yes",
+        "source": "да"
+    },
+    "146862796": {
+        "key": "Subtotal",
+        "source": "Подытог"
+    },
+    "147281640": {
+        "key": "See all reviews",
+        "source": "Смотреть все отзывы"
+    },
+    "149116037": {
+        "key": "Your shopping cart is empty.",
+        "source": "Ваша корзина пуста."
+    },
+    "149357073": {
+        "key": "Product search...",
+        "source": "Поиск товаров..."
+    },
+    "150749198": {
+        "key": "Индекс",
+        "source": "Индекс"
+    },
+    "151296651": {
+        "key": "Last viewed",
+        "source": "Последние просмотренные"
+    },
+    "151938009": {
+        "key": "minutes",
+        "source": "мин"
+    },
+    "151994124": {
+        "key": "Quick view",
+        "source": "Быстрый просмотр"
+    },
+    "153080724": {
+        "key": "Your current affiliate bonus of %s points allows you to get an additonal discount of up to %s",
+        "source": "Your current affiliate bonus of %s points allows you to get an additonal discount of up to %s"
+    },
+    "153869603": {
+        "key": "Ваш заказ",
+        "source": "Ваш заказ"
+    },
+    "154165867": {
+        "key": "min. %s",
+        "source": "мин. %s"
+    },
+    "154731161": {
+        "key": "no",
+        "source": "нет"
+    },
+    "154769074": {
+        "key": "Читать все",
+        "source": "Читать все"
+    },
+    "154964425": {
+        "key": "Price",
+        "source": "Цена"
+    },
+    "155501183": {
+        "key": "day",
+        "source": "день"
+    },
+    "157166177": {
+        "key": "Shipment tracking number",
+        "source": "Номер отправления"
+    },
+    "157596217": {
+        "key": "sent by email",
+        "source": "отправлен по email"
+    },
+    "157928638": {
+        "key": "Email",
+        "source": "Email"
+    },
+    "159713250": {
+        "key": "КОМПАНИЯ",
+        "source": "КОМПАНИЯ"
+    },
+    "160285649": {
+        "key": "Leave feedback",
+        "source": "Оставить отзыв"
+    },
+    "161235116": {
+        "key": "Date",
+        "source": "Дата"
+    },
+    "161378805": {
+        "key": "Checkout",
+        "source": "Оформление заказа"
+    },
+    "162608346": {
+        "key": "%s out of 5 stars",
+        "source": "%s из 5 звезд"
+    },
+    "163637071": {
+        "key": "Buy now",
+        "source": "Купить сейчас"
+    },
+    "163934489": {
+        "key": "Delete all products",
+        "source": "Удалить все товары"
+    },
+    "164380325": {
+        "key": "Your review will be published after moderation.",
+        "source": "Ваш отзыв появится на сайте после проверки."
+    },
+    "164636539": {
+        "key": "Proceed to checkout",
+        "source": "Оформить заказ"
+    },
+    "164913228": {
+        "key": "Ship to",
+        "source": "Получатель"
+    },
+    "165032493": {
+        "key": "Login",
+        "source": "Вход"
+    },
+    "165397963": {
+        "key": "Rated Reviews",
+        "source": "Отзывы с оценкой"
+    },
+    "166492178": {
+        "key": "Bill to",
+        "source": "Плательщик"
+    },
+    "166825565": {
+        "key": "Order storage time",
+        "source": "Срок хранения заказа"
+    },
+    "166892849": {
+        "key": "Rating",
+        "source": "Рейтинг"
+    },
+    "167739369": {
+        "key": "Do you recommend this product",
+        "source": "Рекомендуете ли вы этот товар"
+    },
+    "167991003": {
+        "key": "Select a locality",
+        "source": "Выберите населенный пункт"
+    },
+    "168395206": {
+        "key": "Bonus activity log",
+        "source": "Журнал начисления бонусов"
+    },
+    "168519399": {
+        "key": "Business hours",
+        "source": "Часы работы"
+    },
+    "170862184": {
+        "key": "of the day",
+        "source": "дня"
+    },
+    "170939850": {
+        "key": "read more",
+        "source": "читать далее"
+    },
+    "172142310": {
+        "key": "Продолжить",
+        "source": "Продолжить"
+    },
+    "173190373": {
+        "key": "All",
+        "source": "Все"
+    },
+    "173497210": {
+        "key": "score",
+        "source": "балла"
+    },
+    "175141459": {
+        "key": "This order will add +%s points to your affiliate bonus.",
+        "source": "Этот заказ добавит +%s баллов к вашему партнерскому бонусу."
+    },
+    "175236952": {
+        "key": "Watch",
+        "source": "Смотреть"
+    },
+    "175631787": {
+        "key": "Items cost",
+        "source": "Стоимость товаров"
+    },
+    "176258354": {
+        "key": "You must read and agree to the Terms of service to place an order.",
+        "source": "Вы должны прочитать и принять Условия предоставления услуг для того, чтобы оформить заказ."
+    },
+    "176656918": {
+        "key": "product",
+        "source": "товар"
+    },
+    "177410359": {
+        "key": "Режим работы:",
+        "source": "Режим работы:"
+    },
+    "178156421": {
+        "key": "Specify the category id in the theme settings or install the \"Feature Extension\" plugin",
+        "source": "Укажите id категории в настройках темы или установите плагин «Расширение функционала»"
+    },
+    "179433818": {
+        "key": "Leave feedback about this product",
+        "source": "Оставьте отзыв об этом товаре"
+    },
+    "179638277": {
+        "key": "days",
+        "source": "дней"
+    },
+    "179662870": {
+        "key": "Re-send",
+        "source": "Выслать еще раз"
+    },
+    "180396570": {
+        "key": "Пусто",
+        "source": "Пусто"
+    },
+    "180488792": {
+        "key": "Hide",
+        "source": "Скрыть"
+    },
+    "180794374": {
+        "key": "Область",
+        "source": "Область"
+    },
+    "181002271": {
+        "key": "Compare %s",
+        "source": "Сравнить %s"
+    },
+    "181761301": {
+        "key": "Shipping",
+        "source": "Доставка"
+    },
+    "182017376": {
+        "key": "free",
+        "source": "бесплатно"
+    },
+    "182592685": {
+        "key": "Debit",
+        "source": "Расход"
+    },
+    "184485735": {
+        "key": "Review",
+        "source": "Отзыв"
+    },
+    "188791206": {
+        "key": "Cart empty",
+        "source": "Корзина пуста"
+    },
+    "188906558": {
+        "key": "per",
+        "source": "за"
+    },
+    "190179075": {
+        "key": "Ремонт LED люстр",
+        "source": "Ремонт LED люстр"
+    },
+    "190319361": {
+        "key": "You are authorized as a person, and orders can be placed only by companies. Please %slog out%s of your account to check out as a company.",
+        "source": "Вы авторизованы как физическое лицо, но заказ могут оформить только юридические лица. %sВыйдите%s из своего аккаунта, чтобы оформить заказ как юридическое лицо."
+    },
+    "190775070": {
+        "key": "More details",
+        "source": "Дополнительно"
+    },
+    "191505411": {
+        "key": "Use bonus",
+        "source": "Использовать бонусные баллы"
+    },
+    "192302301": {
+        "key": "Unknown",
+        "source": "Неизвестный"
+    },
+    "192958276": {
+        "key": "Out of stock",
+        "source": "Нет в наличии"
+    },
+    "193666442": {
+        "key": "Categories",
+        "source": "Категории"
+    },
+    "193880380": {
+        "key": "or reduce their quantity %s",
+        "source": "или уменьшите их количество %s"
+    },
+    "195107008": {
+        "key": "English",
+        "source": "Английский"
+    },
+    "195293651": {
+        "key": "max. %s",
+        "source": "макс. %s"
+    },
+    "196681116": {
+        "key": "Complete checkout",
+        "source": "Завершить оформление"
+    },
+    "197023235": {
+        "key": "Shipping option selection",
+        "source": "Выбор варианта доставки"
+    },
+    "197784770": {
+        "key": "Comparison list is empty",
+        "source": "Список сравнения пуст"
+    },
+    "199325361": {
+        "key": "Map",
+        "source": "Карта"
+    },
+    "199746291": {
+        "key": "Images",
+        "source": "Изображения"
+    },
+    "203977336": {
+        "key": "List of last viewed products is empty",
+        "source": "Список последних просмотренных товаров пуст"
+    },
+    "204115976": {
+        "key": "Сравнение",
+        "source": "Сравнение"
+    },
+    "204822255": {
+        "key": "Rate product",
+        "source": "Оценить товар"
+    },
+    "205931394": {
+        "key": "Don’t delete",
+        "source": "Не удалять"
+    },
+    "206872674": {
+        "key": "points",
+        "source": "баллов"
+    },
+    "207739910": {
+        "key": "No product reviews found",
+        "source": "Не найдено ни одного отзыва о товарах"
+    },
+    "208406860": {
+        "key": "Empty",
+        "source": "Пусто"
+    },
+    "209001429": {
+        "key": "Shipping types",
+        "source": "Типы доставки"
+    },
+    "209617816": {
+        "key": "Сabinet",
+        "source": "Кабинет"
+    },
+    "210839811": {
+        "key": "Sort by",
+        "source": "Сортировать"
+    },
+    "211500089": {
+        "key": "Total",
+        "source": "Итого"
+    },
+    "211706742": {
+        "key": "Select a country",
+        "source": "Выберите страну"
+    },
+    "211847580": {
+        "key": "To stay",
+        "source": "Осталось"
+    },
+    "212603524": {
+        "key": "Write a feedback",
+        "source": "Написать отзыв"
+    },
+    "212832927": {
+        "key": "Select a shipping option.",
+        "source": "Выберите вариант доставки."
+    },
+    "213331658": {
+        "key": "Discount",
+        "source": "Скидка"
+    },
+    "213967758": {
+        "key": "Subscribe",
+        "source": "Подписаться"
+    },
+    "214666534": {
+        "key": "Please enter a 4-digit PIN that you have received in a notification from our online store.",
+        "source": "Введите четырехзначный PIN-код, который вы получили в уведомлении от нашего интернет-магазина."
+    },
+    "215046936": {
+        "key": "To view shipping cost and estimated shipping time, please complete fields with an asterisk",
+        "source": "Для расчета стоимости и срока доставки заполните поля со звездочкой"
+    },
+    "215958884": {
+        "key": "Amount:",
+        "source": "Количество:"
+    },
+    "216501431": {
+        "key": "Affiliate program",
+        "source": "Партнерская программа"
+    },
+    "216688611": {
+        "key": "Корзина пуста",
+        "source": "Корзина пуста"
+    },
+    "218441701": {
+        "key": "Logout",
+        "source": "Выход"
+    },
+    "218488956": {
+        "key": "Balance",
+        "source": "Баланс"
+    },
+    "219083605": {
+        "key": "Каталог",
+        "source": "Каталог"
+    },
+    "219196220": {
+        "key": "There are no shipping options available for specified location.",
+        "source": "Для указанного вами местоположения нет доступных вариантов доставки."
+    },
+    "219309830": {
+        "key": "Товары",
+        "source": "Товары"
+    },
+    "219442173": {
+        "key": "You can choose a convenient time starting from this date.",
+        "source": "Вы можете выбрать удобное время начиная с этой даты."
+    },
+    "221417044": {
+        "key": "Главная",
+        "source": "Главная"
+    },
+    "223026854": {
+        "key": "Overview",
+        "source": "Обзор"
+    },
+    "223953600": {
+        "key": "1 %s",
+        "source": "1 %s"
+    },
+    "224910452": {
+        "key": "Your bonuses:",
+        "source": "Ваши бонусы:"
+    },
+    "225357801": {
+        "key": "Download",
+        "source": "Скачать"
+    },
+    "225468495": {
+        "key": "Recommended",
+        "source": "Рекомендуем"
+    },
+    "226135109": {
+        "key": "See all",
+        "source": "Смотреть все"
+    },
+    "226239678": {
+        "key": "BRANDS",
+        "source": "BRANDS"
+    },
+    "226278327": {
+        "key": "selected",
+        "source": "выбрано"
+    },
+    "226780094": {
+        "key": "pc",
+        "source": "шт"
+    },
+    "227786729": {
+        "key": "This product is not available for purchase",
+        "source": "Этот товар временно недоступен для заказа"
+    },
+    "228772503": {
+        "key": "Product with the selected option combination is not available for purchase",
+        "source": "Товар с выбранным набором характеристик недоступен для покупки"
+    },
+    "228842979": {
+        "key": "КАТАЛОГ ТОВАРОВ",
+        "source": "КАТАЛОГ ТОВАРОВ"
+    },
+    "228967148": {
+        "key": "Delete all products from the cart?",
+        "source": "Удалить все товары из корзины?"
+    },
+    "229125761": {
+        "key": "Адрес",
+        "source": "Адрес"
+    },
+    "229566305": {
+        "key": "Reset",
+        "source": "Очистить"
+    },
+    "230055782": {
+        "key": "Coupon code",
+        "source": "Код купона"
+    },
+    "230146096": {
+        "key": "Enter a confirmation code to complete checkout.",
+        "source": "Чтобы завершить оформление заказа, введите проверочный код."
+    },
+    "230521751": {
+        "key": "Поиск по сайту",
+        "source": "Поиск по сайту"
+    },
+    "232003886": {
+        "key": "the stock is over",
+        "source": "акция закончилась"
+    },
+    "232204744": {
+        "key": "Characteristics",
+        "source": "Характеристики"
+    },
+    "234584749": {
+        "key": "Shipping options",
+        "source": "Варианты доставки"
+    },
+    "234764432": {
+        "key": "Comment to the order",
+        "source": "Комментарий к заказу"
+    },
+    "234793288": {
+        "key": "Your order number is ",
+        "source": "Номер вашего заказа "
+    },
+    "235074278": {
+        "key": "To complete your order, please change the products in your shopping cart which are not available in stock:",
+        "source": "Чтобы оформить заказ, измените товары в своей корзине, которые отсутствуют на складе:"
+    },
+    "235199388": {
+        "key": "PIN is not valid",
+        "source": "PIN-код введен неверно"
+    },
+    "235893906": {
+        "key": "either delete them %s",
+        "source": "или удалите их %s"
+    },
+    "237195277": {
+        "key": "Matches shipping address",
+        "source": "Совпадает с адресом доставки"
+    },
+    "237832789": {
+        "key": "Delete",
+        "source": "Удалить"
+    },
+    "238685965": {
+        "key": "Order by phone",
+        "source": "Заказ по телефону"
+    },
+    "238806323": {
+        "key": "Restart checkout",
+        "source": "Начать заново"
+    },
+    "239869186": {
+        "key": "Избранное",
+        "source": "Избранное"
+    },
+    "240315807": {
+        "key": "Don’t use bonus",
+        "source": "Don’t use bonus"
+    },
+    "241351487": {
+        "key": "Shopping cart",
+        "source": "Корзина"
+    },
+    "241819746": {
+        "key": "Terms of service",
+        "source": "Условия предоставления услуг"
+    },
+    "241924589": {
+        "key": "Only a few items left",
+        "source": "Осталось несколько штук"
+    },
+    "242208223": {
+        "key": "Shipping services",
+        "source": "Службы доставки"
+    },
+    "242252614": {
+        "key": "Add a description",
+        "source": "Добавить описание"
+    },
+    "242946993": {
+        "key": "Page %s from %s",
+        "source": "Страница %s из %s"
+    },
+    "242971451": {
+        "key": "Please check values in location fields or contact us.",
+        "source": "Проверьте значения в полях местоположения или свяжитесь с нами."
+    },
+    "243069936": {
+        "key": "Password",
+        "source": "Пароль"
+    },
+    "243126363": {
+        "key": "Error!",
+        "source": "Ошибка!"
+    },
+    "243144464": {
+        "key": "average customer rating",
+        "source": "средняя оценка покупателей"
+    },
+    "243604483": {
+        "key": "Your review has been added!",
+        "source": "Ваш отзыв был добавлен!"
+    },
+    "243827030": {
+        "key": "Compare",
+        "source": "Сравнение"
+    },
+    "244876598": {
+        "key": "Write a response to the review",
+        "source": "Написать ответ на отзыв"
+    },
+    "245001165": {
+        "key": "Delete product from the cart?",
+        "source": "Удалить товар из корзины?"
+    },
+    "245160917": {
+        "key": "Different",
+        "source": "Различные"
+    },
+    "245830637": {
+        "key": "Favorite",
+        "source": "Избранное"
+    },
+    "247622627": {
+        "key": "Brands",
+        "source": "Бренды"
+    },
+    "248620338": {
+        "key": "do not know yet",
+        "source": "еще не знаю"
+    },
+    "249162047": {
+        "key": "Покупатель",
+        "source": "Покупатель"
+    },
+    "249807519": {
+        "key": "The page you are looking for does not exist or has been moved.",
+        "source": "Страница, которую вы ищете, не существует или была перемещена."
+    },
+    "251671581": {
+        "key": "basket is empty",
+        "source": "корзина пуста"
+    },
+    "253074969": {
+        "key": "Your order",
+        "source": "Ваш заказ"
+    },
+    "253297516": {
+        "key": "Your shopping cart is empty",
+        "source": "Ваша корзина пуста"
+    },
+    "255924768": {
+        "key": "Free",
+        "source": "Бесплатно"
+    },
+    "257066214": {
+        "key": "No name",
+        "source": "Нет названия"
+    },
+    "257727442": {
+        "key": "Show more",
+        "source": "Показать еще"
+    },
+    "258355551": {
+        "key": "In stock",
+        "source": "В наличии"
+    },
+    "260618906": {
+        "key": "SKU",
+        "source": "Артикул"
+    },
+    "261690781": {
+        "key": "Rounded discount value",
+        "source": "Округленное значение скидки"
+    },
+    "261770738": {
+        "key": "Find out more",
+        "source": "Узнать подробнее"
+    },
+    "263292766": {
+        "key": "Credit",
+        "source": "Приход"
+    },
+    "263843722": {
+        "key": "Product",
+        "source": "Товар"
+    },
+    "264492927": {
+        "key": "Estimated delivery",
+        "source": "Приблизительное время доставки"
+    },
+    "264932699": {
+        "key": "Контакты",
+        "source": "Контакты"
+    },
+    "265363889": {
+        "key": "Улица",
+        "source": "Улица"
+    },
+    "265414174": {
+        "key": "Select a region",
+        "source": "Выберите регион"
+    },
+    "266479078": {
+        "key": "Compare products",
+        "source": "Сравнить товары"
+    },
+    "268102099": {
+        "key": "Vendor code",
+        "source": "Артикул"
+    },
+    "266269735": {
+        "key": "Bestsellers",
+        "source": "Bestsellers"
+    },
+    "154070817": {
+        "key": "Customer rating",
+        "source": "Customer rating"
+    },
+    "53615520": {
+        "key": "Date added",
+        "source": "Date added"
+    },
+    "159180391": {
+        "key": "В розницу",
+        "source": "В розницу"
+    },
+    "215693513": {
+        "key": "Retail",
+        "source": "Retail"
+    },
+    "247295925": {
+        "key": "Акции, специальные предложения и популярные товары на",
+        "source": "Акции, специальные предложения и популярные товары на"
+    },
+    "15085790": {
+        "key": "главной странице",
+        "source": "главной странице"
+    },
+    "179166171": {
+        "key": "помогут вам определиться с выбором",
+        "source": "помогут вам определиться с выбором"
+    },
+    "48737507": {
+        "key": "Для добавления товаров в избранное перейдите на",
+        "source": "Для добавления товаров в избранное перейдите на"
+    },
+    "73632425": {
+        "key": "Для добавления товаров к сравнению перейдите на",
+        "source": "Для добавления товаров к сравнению перейдите на"
+    },
+    "267069484": {
+        "key": "главную страницу",
+        "source": "главную страницу"
+    },
+    "15772175": {
+        "key": "Популярные товары",
+        "source": "Популярные товары"
+    },
+    "188719915": {
+        "key": "Отдел продаж",
+        "source": "Отдел продаж"
+    },
+    "82787939": {
+        "key": "Заказать звонок",
+        "source": "Заказать звонок"
+    },
+    "89979152": {
+        "key": "Заказать обратный звонок",
+        "source": "Заказать обратный звонок"
+    },
+    "56507655": {
+        "key": "Номер телефона",
+        "source": "Номер телефона"
+    },
+    "223820292": {
+        "key": "Персональные данные",
+        "source": "Персональные данные"
+    },
+    "151979572": {
+        "key": "Я соглашаюсь на обработку персональных данных",
+        "source": "Я соглашаюсь на обработку персональных данных"
+    },
+    "216754346": {
+        "key": "Отправить",
+        "source": "Отправить"
+    },
+    "83381766": {
+        "key": "Ваша заявка отправлена",
+        "source": "Ваша заявка отправлена"
+    },
+    "133746488": {
+        "key": "В ближайшее время мы обязательно свяжемся с Вами!",
+        "source": "В ближайшее время мы обязательно свяжемся с Вами!"
+    },
+    "198760107": {
+        "key": "Капча введена неверно",
+        "source": "Капча введена неверно"
+    },
+    "234950756": {
+        "key": "Поле обязательно для заполнения",
+        "source": "Поле обязательно для заполнения"
+    },
+    "95679684": {
+        "key": "Неправильный формат Email",
+        "source": "Неправильный формат Email"
+    }
+}

@@ -1,0 +1,84 @@
+<div id="multilanguageassyst-editor" style="padding:24px;max-width:1200px;margin:auto" data-editor-url="{$editor_url|escape}">
+<style>{literal}
+        #multilanguageassyst-editor .multilanguageassyst-publication-text{width:100%;height:160px;box-sizing:border-box;resize:none;overflow:auto}
+        #multilanguageassyst-editor .multilanguageassyst-feature-input{width:100%;box-sizing:border-box;padding:.5em .75em;border:1px solid var(--border-color-input,#cfcfcf);border-radius:.3em;background:var(--background-color-input,#fff);color:inherit;font:inherit}
+        #multilanguageassyst-editor .multilanguageassyst-two-columns>*{min-width:0}
+        #multilanguageassyst-editor .multilanguageassyst-search{display:flex;flex-direction:column;align-items:flex-start;gap:16px;margin:24px 0}
+        #multilanguageassyst-editor .multilanguageassyst-search-row{display:flex;align-items:flex-end;gap:12px;width:100%;max-width:800px} #multilanguageassyst-editor .multilanguageassyst-search-row label{flex:1;width:auto;min-width:0} #multilanguageassyst-editor .multilanguageassyst-options-row{display:flex;gap:16px;max-width:800px;width:100%} #multilanguageassyst-editor .multilanguageassyst-options-row label{flex:1;min-width:0} #multilanguageassyst-editor .multilanguageassyst-search label{display:flex;flex-direction:column;gap:8px;max-width:100%;width:420px} #multilanguageassyst-editor .multilanguageassyst-search-row label{width:auto} #multilanguageassyst-editor .multilanguageassyst-options-row label{width:auto} #multilanguageassyst-editor select{width:100%;box-sizing:border-box} #multilanguageassyst-editor .multilanguageassyst-jump select{width:auto}
+        #multilanguageassyst-editor input[type=search]{box-sizing:border-box;width:100%;padding:.5em .75em;border:1px solid var(--border-color-input,#cfcfcf);border-radius:.3em;background:var(--background-color-input,#fff);color:inherit;font:inherit}
+        #multilanguageassyst-editor input[type=search]:focus{outline:2px solid var(--accent-color,#0088ee);outline-offset:1px}
+        #multilanguageassyst-editor .multilanguageassyst-pagination,#multilanguageassyst-editor .multilanguageassyst-jump,#multilanguageassyst-editor .multilanguageassyst-export-jump,#multilanguageassyst-editor .multilanguageassyst-export-tools{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+        #multilanguageassyst-editor .multilanguageassyst-jump,#multilanguageassyst-editor .multilanguageassyst-export-jump{margin:0;flex-wrap:nowrap}
+        #multilanguageassyst-editor .multilanguageassyst-jump select,#multilanguageassyst-editor .multilanguageassyst-export-jump select{width:auto}
+        #multilanguageassyst-editor .multilanguageassyst-jump label,#multilanguageassyst-editor .multilanguageassyst-export-jump label{white-space:nowrap}
+        #multilanguageassyst-editor .multilanguageassyst-check{display:inline-flex;align-items:center;gap:8px;cursor:pointer}
+        #multilanguageassyst-editor .multilanguageassyst-check input{margin:0}
+        #multilanguageassyst-editor .multilanguageassyst-table{max-height:400px;overflow:auto;border:1px solid var(--border-color-soft,#ddd);margin:16px 0}
+        #multilanguageassyst-editor .multilanguageassyst-table td,#multilanguageassyst-editor .multilanguageassyst-table th{padding:8px}
+        #multilanguageassyst-editor .multilanguageassyst-file-button{position:relative;overflow:hidden;display:inline-block;cursor:pointer;vertical-align:middle}
+        #multilanguageassyst-editor .multilanguageassyst-file-button input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}
+        #multilanguageassyst-editor .multilanguageassyst-file-button:focus-within{outline:2px solid var(--accent-color,#0088ee);outline-offset:2px}
+        #multilanguageassyst-editor [role=status]{white-space:pre-line}
+        #multilanguageassyst-editor [role=status][data-status]{display:block;padding:12px 16px;margin-top:16px;border:1px solid;border-radius:6px;line-height:1.6}
+        #multilanguageassyst-editor [role=status][data-status=success]{color:#14532d;background:#ecfdf3;border-color:#86cfa0}
+        #multilanguageassyst-editor [role=status][data-status=error]{color:#991b1b;background:#fff1f2;border-color:#f0a2a2}
+        #multilanguageassyst-editor [role=status][data-status=loading]{color:var(--text-color,#444);background:var(--background-color,#f5f5f5);border-color:var(--border-color-soft,#ddd)}
+        #multilanguageassyst-browser[aria-busy=true]{opacity:.6;pointer-events:none}
+    #multilanguageassyst-editor [hidden]{display:none!important} #multilanguageassyst-editor .multilanguageassyst-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0} #multilanguageassyst-editor .multilanguageassyst-tabs button[aria-selected=true]{background:var(--accent-color,#0088ee);color:#fff} #multilanguageassyst-editor .multilanguageassyst-two-columns{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media(max-width:700px){#multilanguageassyst-editor .multilanguageassyst-two-columns{grid-template-columns:1fr}} #multilanguageassyst-editor .multilanguageassyst-author{font-size:14px;font-weight:normal} {/literal}</style>
+<h1>{shopMultilanguageassystBackendLocale::t('МультиязыкАссист')|escape} <small class="multilanguageassyst-author">{$plugin_version|default:'0.6.18'|escape} {shopMultilanguageassystBackendLocale::t('· Автор:')|escape} <a href="https://the88788.com" target="_blank" rel="noopener">the88788.com</a></small></h1>
+<nav class="multilanguageassyst-tabs" role="tablist" aria-label="{shopMultilanguageassystBackendLocale::t('Управление переводами')|escape}">
+<button class="button light-gray" type="button" role="tab" data-tab="content" aria-selected="true" aria-controls="multilanguageassyst-content">{shopMultilanguageassystBackendLocale::t('Публикации')|escape}</button>
+<button class="button light-gray" type="button" role="tab" data-tab="export" aria-selected="false" aria-controls="multilanguageassyst-export-panel">{shopMultilanguageassystBackendLocale::t('Экспорт')|escape}</button>
+<button class="button light-gray" type="button" role="tab" data-tab="import" aria-selected="false" aria-controls="multilanguageassyst-import-panel">{shopMultilanguageassystBackendLocale::t('Импорт')|escape}</button>
+<button class="button light-gray" type="button" role="tab" data-tab="languages" aria-selected="false" aria-controls="multilanguageassyst-languages">{shopMultilanguageassystBackendLocale::t('Языки')|escape}</button>
+<button class="button light-gray" type="button" role="tab" data-tab="logs" aria-selected="false" aria-controls="multilanguageassyst-logs">{shopMultilanguageassystBackendLocale::t('Журнал')|escape}</button>
+</nav>
+<section id="multilanguageassyst-content" role="tabpanel">
+<p id="multilanguageassyst-list-status" role="status" aria-live="polite"></p>
+<div id="multilanguageassyst-list-view" {if $source}hidden{/if}>{include file="./Browser.html"}</div>
+<div id="multilanguageassyst-edit-view" {if !$source}hidden{/if}>{include file="./Editor.html"}</div>
+</section>
+<section id="multilanguageassyst-export-panel" role="tabpanel" hidden><p id="multilanguageassyst-export-status" role="status" aria-live="polite"></p><div id="multilanguageassyst-export-view"></div></section>
+<section id="multilanguageassyst-import-panel" role="tabpanel" hidden>    <h2>{shopMultilanguageassystBackendLocale::t('Перевод через файл')|escape}</h2>
+    <p>{shopMultilanguageassystBackendLocale::t('Экспортируйте тексты, передайте человеку для перевода через ChatGPT, затем загрузите готовый JSON.')|escape}</p>
+    <form id="multilanguageassyst-import" action="{$editor_url|escape}?plugin=multilanguageassyst&amp;module=backend&amp;action=import" method="post" style="margin-top:20px">
+        {$wa->csrf()}
+        <label class="multilanguageassyst-file-button button light-gray">{shopMultilanguageassystBackendLocale::t('Выбрать JSON')|escape}<input id="multilanguageassyst-file" type="file" accept=".json,application/json" required></label> <span id="multilanguageassyst-file-name" class="hint">{shopMultilanguageassystBackendLocale::t('Файл не выбран')|escape}</span>
+        <p><label class="multilanguageassyst-check"><input name="overwrite" type="checkbox" value="1"><span>{shopMultilanguageassystBackendLocale::t('Разрешить замену существующих переводов')|escape}</span></label></p>
+        <button class="button" type="submit" name="preview" value="1">{shopMultilanguageassystBackendLocale::t('Проверить файл')|escape}</button>
+        <button class="button" type="submit" name="preview" value="0">{shopMultilanguageassystBackendLocale::t('Импортировать')|escape}</button>
+        <p class="hint">{shopMultilanguageassystBackendLocale::t('Язык определяется по target_language в JSON. Перед импортом проверьте указанный язык.')|escape}</p><p id="multilanguageassyst-import-result" role="status" aria-live="polite"></p>
+    </form>
+</section>
+<section id="multilanguageassyst-languages" role="tabpanel" hidden>{include file="./Languages.html"}</section>
+<section id="multilanguageassyst-logs" role="tabpanel" hidden><h2>{shopMultilanguageassystBackendLocale::t('Журнал операций')|escape}</h2><button type="button" class="button light-gray" id="multilanguageassyst-refresh-logs">{shopMultilanguageassystBackendLocale::t('Обновить')|escape}</button><div id="multilanguageassyst-log-items">{include file="./Journal.html"}</div></section>
+{literal}<style>
+#multilanguageassyst-editor .multilanguageassyst-help{margin-top:32px;padding:18px 20px;border:1px solid var(--border-color,#ddd);border-radius:8px;font-size:14px}
+#multilanguageassyst-editor .multilanguageassyst-help h3{margin:0 0 8px;font-size:16px}
+#multilanguageassyst-editor .multilanguageassyst-help p{margin:8px 0}
+#multilanguageassyst-editor .multilanguageassyst-help-contacts{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px}
+#multilanguageassyst-editor .multilanguageassyst-help-contacts a{display:inline-flex;align-items:center;gap:6px}
+#multilanguageassyst-editor .multilanguageassyst-help-contacts svg{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+</style>{/literal}
+<aside class="multilanguageassyst-help" aria-labelledby="multilanguageassyst-help-title">
+    <h3 id="multilanguageassyst-help-title">{shopMultilanguageassystBackendLocale::t('Нужна помощь с МультиязыкАссист или Webasyst?')|escape}</h3>
+    <p>{shopMultilanguageassystBackendLocale::t('Установка и настройка плагина, адаптация переводов к вашей теме, помощь с экспортом и импортом языковых файлов.')|escape}</p>
+    <p>{shopMultilanguageassystBackendLocale::t('Также разрабатываю плагины, дорабатываю сайты и подключаю внешние сервисы к Webasyst.')|escape}</p>
+    <p class="multilanguageassyst-help-contacts">
+        <strong>{shopMultilanguageassystBackendLocale::t('Владислав · Автор плагина')|escape}</strong>
+        <a href="https://the88788.com" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 7h14M5 17h14"/></svg><span>the88788.com</span></a>
+        <a href="https://t.me/The88788" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 18-7-5 18-6-7-7-4Z M10 14l11-11M10 14v6l3-3"/></svg><span>Telegram</span></a>
+        <a href="https://max.ru/u/f9LHodD0cOLcJkvGbCnDK7bkr4TBmJFJfueY5Hb02FaM3sl7H7tjVlzdFCk" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11a9 9 0 0 1-9 9H4l-1 2V11a9 9 0 0 1 18 0Z M7 15V8l5 5 5-5v7"/></svg><span>MAX</span></a>
+        <a href="https://wa.me/77003418180" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a9 9 0 0 1-13.5 7.8L3 21l1.7-4.5A9 9 0 1 1 21 11.5Z"/><path d="M8 7.5c0 4 4.5 8 8 8l1-2.5-3-1-1 1c-1.5-.8-2.5-1.8-3-3l1-1-1-2.5Z"/></svg><span>WhatsApp</span></a>
+    </p>
+    <p class="hint">{shopMultilanguageassystBackendLocale::t('Плагин бесплатный. Индивидуальная установка, настройка и адаптация доступны как отдельные платные услуги.')|escape}</p>
+</aside>
+<script type="application/json" id="multilanguageassyst-backend-locale">{shopMultilanguageassystBackendLocale::javascript()}</script>
+<script src="{$wa_url}wa-apps/shop/plugins/multilanguageassyst/js/backend.js?v={$plugin_version|default:'0.6.18'|escape}"></script>
+</div>
+
+
+
+
+
+

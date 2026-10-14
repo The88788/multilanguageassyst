@@ -1,0 +1,43 @@
+{$ml_field_labels=['name'=>shopMultilanguageassystBackendLocale::t('Название'),'summary'=>shopMultilanguageassystBackendLocale::t('Краткое описание'),'description'=>shopMultilanguageassystBackendLocale::t('Описание'),'title'=>shopMultilanguageassystBackendLocale::t('Заголовок'),'content'=>shopMultilanguageassystBackendLocale::t('Содержимое страницы или блока'),'text'=>shopMultilanguageassystBackendLocale::t('Текст'),'meta_title'=>shopMultilanguageassystBackendLocale::t('Заголовок для поисковых систем'),'meta_description'=>shopMultilanguageassystBackendLocale::t('Описание для поисковых систем'),'meta_keywords'=>shopMultilanguageassystBackendLocale::t('Ключевые слова для поисковых систем'),'keywords'=>shopMultilanguageassystBackendLocale::t('Ключевые слова'),'text_before_cut'=>shopMultilanguageassystBackendLocale::t('Вступление'),'cut_link_label'=>shopMultilanguageassystBackendLocale::t('Текст ссылки продолжения')]}
+<div id="multilanguageassyst-edit-fragment">
+    {if $source}
+    <button type="button" class="button light-gray multilanguageassyst-back">{shopMultilanguageassystBackendLocale::t('← К списку')|escape}</button><h2>{$source.name|default:''|escape} - ID {$entity_id}</h2>
+    <form id="multilanguageassyst-save" action="{$editor_url|escape}?plugin=multilanguageassyst&amp;module=backend&amp;action=save" method="post">
+        {$wa->csrf()}
+        <input type="hidden" name="target_language" value="{$target_language|escape}"><input type="hidden" name="entity_type" value="{$entity_type|escape}">
+        <input type="hidden" name="entity_id" value="{$entity_id|escape}">
+        {foreach $fields as $field}
+        <section style="margin:24px 0">
+            <h3>{if ($entity_type == 'feature' || $entity_type == 'service') && isset($source._value_labels[$field])}{$source._value_labels[$field]|escape}{elseif ($entity_type == 'feature' || $entity_type == 'service')}{if $entity_type == 'service'}{shopMultilanguageassystBackendLocale::t('Название услуги')|escape}{else}{shopMultilanguageassystBackendLocale::t('Название характеристики')|escape}{/if}{else}{$ml_field_labels[$field]|default:$field|escape}{/if}</h3>
+            {if isset($translations[$field]) && $translations[$field].source_hash != $hashes[$field]}
+                <p style="color:#a65b00">{shopMultilanguageassystBackendLocale::t('Исходный текст изменился. Проверьте перевод.')|escape}</p>
+            {/if}
+            <div class="multilanguageassyst-two-columns">
+                <label>{shopMultilanguageassystBackendLocale::t('Оригинал')|escape}
+                    {if ($entity_type == 'feature' || $entity_type == 'service')}<input class="multilanguageassyst-feature-input" type="text" readonly value="{$source[$field]|default:''|escape}">{else}<textarea class="multilanguageassyst-publication-text" readonly>{$source[$field]|default:''|escape}</textarea>{/if}
+                </label>
+                <label>{shopMultilanguageassystBackendLocale::t('Перевод -')|escape} {$target_name|escape}
+                    {if ($entity_type == 'feature' || $entity_type == 'service')}<input class="multilanguageassyst-feature-input" type="text" name="translations[{$field|escape}]" value="{$translations[$field].value|default:''|escape}">{else}<textarea class="multilanguageassyst-publication-text" name="translations[{$field|escape}]">{$translations[$field].value|default:''|escape}</textarea>{/if}
+                </label>
+            </div>
+            <input type="hidden" name="source_hashes[{$field|escape}]" value="{$hashes[$field]|escape}">
+        </section>
+        {/foreach}
+        {if !empty($product_features)}
+        <h2>{shopMultilanguageassystBackendLocale::t('Характеристики товара')|escape}</h2>
+        <p class="hint">{shopMultilanguageassystBackendLocale::t('Названия и значения общие для каталога: перевод используется во всех товарах с той же характеристикой и значением. Числа и единицы измерения не переводятся.')|escape}</p>
+        {foreach $product_features as $feature_id=>$feature}
+        <h3>{$feature.source.name|escape}</h3>
+        {foreach $feature.fields as $field}
+        <section style="margin:16px 0"><h4>{if $field == 'name'}{if $entity_type == 'service'}{shopMultilanguageassystBackendLocale::t('Название услуги')|escape}{else}{shopMultilanguageassystBackendLocale::t('Название характеристики')|escape}{/if}{else}{$feature.source._value_labels[$field]|escape}{/if}</h4>
+        {if isset($feature.translations[$field]) && $feature.translations[$field].source_hash != $feature.hashes[$field]}<p class="hint">{shopMultilanguageassystBackendLocale::t('Исходный текст изменился. Проверьте перевод.')|escape}</p>{/if}
+        <div class="multilanguageassyst-two-columns"><label>{shopMultilanguageassystBackendLocale::t('Оригинал')|escape}<input class="multilanguageassyst-feature-input" type="text" readonly value="{$feature.source[$field]|escape}"></label>
+        <label>{shopMultilanguageassystBackendLocale::t('Перевод -')|escape} {$target_name|escape}<input class="multilanguageassyst-feature-input" type="text" name="features[{$feature_id}][translations][{$field|escape}]" value="{$feature.translations[$field].value|default:''|escape}"></label></div>
+        <input type="hidden" name="features[{$feature_id}][hashes][{$field|escape}]" value="{$feature.hashes[$field]|escape}"></section>
+        {/foreach}{/foreach}{/if}
+        <button class="button" type="submit">{shopMultilanguageassystBackendLocale::t('Сохранить переводы')|escape}</button>
+        <button type="button" class="button light-gray multilanguageassyst-back">{shopMultilanguageassystBackendLocale::t('Отмена')|escape}</button><span id="multilanguageassyst-result" role="status"></span>
+    </form>
+    {/if}
+
+</div>

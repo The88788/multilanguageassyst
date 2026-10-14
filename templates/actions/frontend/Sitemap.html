@@ -1,0 +1,6 @@
+<section class="wrap multilanguageassyst-sitemap"><h1>{shopMultilanguageassystPlugin::t('Карта сайта')|escape}</h1>
+<h2>{shopMultilanguageassystPlugin::t('Категории')|escape}</h2><ul>
+{foreach $ml_sitemap_categories as $item}<li><a href="{$item.url|escape}">{$item.name|escape}</a></li>{/foreach}</ul>
+<h2>{shopMultilanguageassystPlugin::t('Страницы')|escape}</h2><ul>
+{foreach $ml_sitemap_pages as $item}<li><a href="{$item.url|escape}">{$item.name|escape}</a></li>{/foreach}</ul>
+{if shopMultilanguageassystPlugin::sectionVisible('blog')}<p><a href="{$wa_url}blog/">{shopMultilanguageassystPlugin::t('Блог')|escape}</a></p>{/if}</section>

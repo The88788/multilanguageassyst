@@ -1,0 +1,71 @@
+{$export_mode=$export_mode|default:false}
+<div id="{if $export_mode}multilanguageassyst-export-browser{else}multilanguageassyst-browser{/if}">
+    <form id="{if $export_mode}multilanguageassyst-export-search{else}multilanguageassyst-search{/if}" method="get" action="{$editor_url|escape}" class="multilanguageassyst-search">
+        <input type="hidden" name="plugin" value="multilanguageassyst">
+        <input type="hidden" name="module" value="backend">
+        <div class="multilanguageassyst-options-row"><label>{shopMultilanguageassystBackendLocale::t('Выберите содержимое')|escape}
+            <select name="entity_type">
+                <option value="product" {if $entity_type == 'product'}selected{/if}>{shopMultilanguageassystBackendLocale::t('Товары')|escape}</option>
+                <option value="category" {if $entity_type == 'category'}selected{/if}>{shopMultilanguageassystBackendLocale::t('Категории')|escape}</option>
+                <option value="page" {if $entity_type == 'page'}selected{/if}>{shopMultilanguageassystBackendLocale::t('Страницы магазина')|escape}</option>
+                <option value="service" {if $entity_type == 'service'}selected{/if}>{shopMultilanguageassystBackendLocale::t('Дополнительные услуги и варианты')|escape}</option><option value="feature" {if $entity_type == 'feature'}selected{/if}>{shopMultilanguageassystBackendLocale::t('Характеристики и значения')|escape}</option>
+                <option value="interface" {if $entity_type == 'interface'}selected{/if}>{shopMultilanguageassystBackendLocale::t('Фразы интерфейса')|escape}</option>
+                <option value="theme" {if $entity_type == 'theme'}selected{/if}>{shopMultilanguageassystBackendLocale::t('Текстовые блоки темы')|escape}</option>
+                <option value="tag" {if $entity_type == 'tag'}selected{/if}>{shopMultilanguageassystBackendLocale::t('Теги товаров')|escape}</option>
+                <option value="blog_post" {if $entity_type == 'blog_post'}selected{/if}>{shopMultilanguageassystBackendLocale::t('Статьи блога')|escape}</option>
+                <option value="blog_tag" {if $entity_type == 'blog_tag'}selected{/if}>{shopMultilanguageassystBackendLocale::t('Теги блога')|escape}</option>
+            </select>
+        </label>
+        <label>{shopMultilanguageassystBackendLocale::t('Выберите язык')|escape} <select name="target_language"{if !$target_languages} disabled{/if}>{foreach $target_languages as $code=>$language}<option value="{$code|escape}" {if $target_language == $code}selected{/if}>{$language|escape}</option>{foreachelse}<option value="">{shopMultilanguageassystBackendLocale::t('Добавьте язык')|escape}</option>{/foreach}</select></label>
+</div>
+        <div class="multilanguageassyst-search-row"><label>{shopMultilanguageassystBackendLocale::t('Поиск по названию')|escape}
+            <input type="search" name="q" value="{$query|escape}" placeholder="{shopMultilanguageassystBackendLocale::t('Название или модель')|escape}">
+        </label></div>
+        <button type="submit" class="button">{shopMultilanguageassystBackendLocale::t('Показать')|escape}</button>
+    </form>
+    {if !$target_languages}<p>{shopMultilanguageassystBackendLocale::t('Нет дополнительных языков. Откройте вкладку «Языки» и добавьте язык перевода.')|escape}</p>{else}
+    <p class="hint">{shopMultilanguageassystBackendLocale::t('Товары показаны от новых к старым. После перевода выберите следующую запись.')|escape}</p><h2>{if $export_mode}{shopMultilanguageassystBackendLocale::t('Выберите объекты для экспорта')|escape}{else}{shopMultilanguageassystBackendLocale::t('Публикации')|escape}{/if}</h2>
+    <p class="hint">{shopMultilanguageassystBackendLocale::t('Показано')|escape} {$listing.rows|count} {shopMultilanguageassystBackendLocale::t('из')|escape} {$listing.total}{shopMultilanguageassystBackendLocale::t('. Партия')|escape} {$listing.page} {shopMultilanguageassystBackendLocale::t('из')|escape} {$listing.pages} {shopMultilanguageassystBackendLocale::t('(до 100 записей).')|escape}
+        {if !$export_mode}{shopMultilanguageassystBackendLocale::t('Для редактирования одного объекта нажмите его название.')|escape}{/if}</p>
+    <nav class="multilanguageassyst-pagination" aria-label="{shopMultilanguageassystBackendLocale::t('Партии для перевода')|escape}">
+        {if $listing.page > 1}<a class="button light-gray {if $export_mode}multilanguageassyst-export-page{else}multilanguageassyst-page{/if}" href="{$previous_url|escape}">{shopMultilanguageassystBackendLocale::t('← Предыдущие 100')|escape}</a>{/if}
+        <form class="{if $export_mode}multilanguageassyst-export-jump{else}multilanguageassyst-jump{/if}" method="get" action="{$editor_url|escape}">
+            <input type="hidden" name="plugin" value="multilanguageassyst">
+            <input type="hidden" name="module" value="backend">
+            <input type="hidden" name="entity_type" value="{$entity_type|escape}">
+            <input type="hidden" name="target_language" value="{$target_language|escape}"><input type="hidden" name="q" value="{$query|escape}">
+            <label>{shopMultilanguageassystBackendLocale::t('Партия')|escape} <select name="list_page" aria-label="{shopMultilanguageassystBackendLocale::t('Номер партии')|escape}">
+                {section name=batch start=1 loop=$listing.pages+1}
+                    <option value="{$smarty.section.batch.index}" {if $listing.page == $smarty.section.batch.index}selected{/if}>{$smarty.section.batch.index} {shopMultilanguageassystBackendLocale::t('из')|escape} {$listing.pages}</option>
+                {/section}
+            </select></label>
+            <button type="submit" class="button light-gray">{shopMultilanguageassystBackendLocale::t('Перейти')|escape}</button>
+        </form>
+        {if $listing.page < $listing.pages}<a class="button light-gray {if $export_mode}multilanguageassyst-export-page{else}multilanguageassyst-page{/if}" href="{$next_url|escape}">{shopMultilanguageassystBackendLocale::t('Следующие 100 →')|escape}</a>{/if}
+    </nav>
+    {if $export_mode}<p class="hint">{shopMultilanguageassystBackendLocale::t('После скачивания выберите следующую партию. Выбор галочек действует только для текущей партии.')|escape}</p>{/if}
+    <form id="{if $export_mode}multilanguageassyst-export{else}multilanguageassyst-publications{/if}" method="get" action="{$editor_url|escape}">
+        <input type="hidden" name="plugin" value="multilanguageassyst">
+        <input type="hidden" name="module" value="backend">
+        <input type="hidden" name="action" value="export"><input type="hidden" name="target_language" value="{$target_language|escape}">
+        <input type="hidden" name="list_page" value="{$listing.page}">
+        <input type="hidden" name="entity_type" value="{$entity_type|escape}">
+        {if $export_mode}<div class="multilanguageassyst-export-tools">
+            <label class="multilanguageassyst-check"><input id="multilanguageassyst-select-all" type="checkbox"><span>{shopMultilanguageassystBackendLocale::t('Выбрать всю текущую партию')|escape}</span></label>
+            <button type="submit" class="button" id="multilanguageassyst-export-button" disabled>{shopMultilanguageassystBackendLocale::t('Скачать выбранные тексты (0)')|escape}</button>
+        </div>
+        {/if}<div class="multilanguageassyst-table">
+            <table class="zebra" style="width:100%">
+                <thead><tr>{if $export_mode}<th style="width:45px"></th>{/if}<th style="text-align:left">{shopMultilanguageassystBackendLocale::t('Название')|escape}</th></tr></thead>
+                <tbody>
+                {foreach $listing.rows as $item}
+                    <tr>{if $export_mode}<td><input type="checkbox" name="ids[]" value="{$item.id}" aria-label="{shopMultilanguageassystBackendLocale::t('Выбрать')|escape} {$item.name|escape}"></td>{/if}
+                        <td>{if $export_mode}{$item.name|escape}{else}<a class="multilanguageassyst-edit-link" href="{$item.edit_url|escape}">{$item.name|escape}</a>{/if}</td></tr>
+                {foreachelse}<tr><td colspan="2">{shopMultilanguageassystBackendLocale::t('Ничего не найдено.')|escape}</td></tr>{/foreach}
+                </tbody>
+            </table>
+        </div>
+    </form>
+    {/if}
+</div>
+
